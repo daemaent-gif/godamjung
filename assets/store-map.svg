@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-labelledby="title desc">
+  <title id="title">고담정 수도권 지점 현황 지도</title>
+  <desc id="desc">서울 18개, 경기 34개 지점 분포를 보여주는 목업 지도 이미지</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="44%" r="70%">
+      <stop offset="0%" stop-color="#4b403a"/>
+      <stop offset="56%" stop-color="#343133"/>
+      <stop offset="100%" stop-color="#28272a"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <filter id="pinGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="640" rx="0" fill="#2d1d15"/>
+  <rect x="42" y="42" width="816" height="556" rx="10" fill="url(#glow)"/>
+
+  <g opacity="0.18">
+    <path d="M88 142H812M88 222H812M88 302H812M88 382H812M88 462H812M88 542H812" stroke="#f4efe7"/>
+    <path d="M128 82V566M248 82V566M368 82V566M488 82V566M608 82V566M728 82V566" stroke="#f4efe7"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M188 146 L355 85 L552 112 L702 223 L748 362 L656 504 L442 568 L246 500 L116 352 Z"
+      fill="#56514b" fill-opacity="0.72" stroke="#aaa29a" stroke-width="4"/>
+    <path d="M340 278 L448 232 L545 292 L532 397 L425 447 L318 386 Z"
+      fill="#8d403b" fill-opacity="0.72" stroke="#d8b8ad" stroke-width="4"/>
+  </g>
+
+  <g fill="none" stroke="#c5beb2" stroke-width="2" opacity="0.36">
+    <path d="M200 350 C280 292 360 300 428 342 C520 396 598 363 678 302"/>
+    <path d="M260 492 C342 428 454 424 612 486"/>
+    <path d="M198 184 C290 223 394 209 522 140"/>
+  </g>
+
+  <g filter="url(#pinGlow)">
+    <g fill="#bd3429" stroke="#fff7ed" stroke-width="5">
+      <circle cx="437" cy="336" r="12"/>
+      <circle cx="490" cy="312" r="12"/>
+      <circle cx="389" cy="367" r="12"/>
+      <circle cx="542" cy="388" r="12"/>
+      <circle cx="316" cy="290" r="12"/>
+      <circle cx="606" cy="252" r="12"/>
+      <circle cx="220" cy="346" r="12"/>
+      <circle cx="656" cy="406" r="12"/>
+      <circle cx="466" cy="486" r="12"/>
+      <circle cx="276" cy="450" r="12"/>
+      <circle cx="565" cy="180" r="12"/>
+      <circle cx="205" cy="238" r="12"/>
+      <circle cx="734" cy="320" r="12"/>
+      <circle cx="352" cy="174" r="12"/>
+      <circle cx="515" cy="510" r="12"/>
+    </g>
+  </g>
+
+  <g font-family="Pretendard, Noto Sans KR, Malgun Gothic, sans-serif" font-weight="900">
+    <text x="456" y="356" text-anchor="middle" fill="#fff7ed" font-size="44">서울 18</text>
+    <text x="590" y="474" text-anchor="middle" fill="#fff7ed" font-size="42">경기 34</text>
+    <text x="94" y="98" fill="#fff7ed" font-size="28" opacity="0.84">고담정 지점 현황</text>
+    <text x="94" y="136" fill="#bd3429" font-size="20">수도권 오픈·예정 지점 52</text>
+  </g>
+
+  <g transform="translate(96 518)">
+    <rect width="226" height="48" rx="24" fill="#f4efe7" fill-opacity="0.1" stroke="#f4efe7" stroke-opacity="0.2"/>
+    <circle cx="28" cy="24" r="8" fill="#bd3429" stroke="#fff7ed" stroke-width="3"/>
+    <text x="48" y="31" fill="#fff7ed" font-family="Pretendard, Noto Sans KR, Malgun Gothic, sans-serif" font-size="18" font-weight="800">오픈·예정 지점</text>
+  </g>
+</svg>
